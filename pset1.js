@@ -4,7 +4,6 @@
  *  it may be tempting to use concepts like looping but do not attempt! 
  */
  
- 
 /* 1
     @func makeEven
     @param {string} str
@@ -16,7 +15,17 @@
     @example - makeEven('john'); // 'john'
 */
 
+const makeEven = (str) => {
+    
+    if (str.length % 2 === 1) {
+    return (str + '#');
+    }
+    return str;
+}
 
+console.log(makeEven('LittleRedRidingHood'))
+console.log(makeEven('seventeen'))
+console.log(makeEven('Tony'))
 /* 2
     @func getLastChar
     @param {string} str
