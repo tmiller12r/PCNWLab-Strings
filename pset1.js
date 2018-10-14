@@ -25,7 +25,7 @@ const makeEven = (str) => {
 
 console.log(makeEven('LittleRedRidingHood'))
 console.log(makeEven('seventeen'))
-console.log(makeEven('Tony'))
+console.log(makeEven('Tony'))   
 /* 2
     @func getLastChar
     @param {string} str
@@ -33,6 +33,7 @@ console.log(makeEven('Tony'))
     @desc - return the last character in string
     @example - getLastChar('taq'); // 'q'
 */
+
 
 /* 3
     @func get3rdChar
